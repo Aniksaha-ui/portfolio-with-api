@@ -21,13 +21,16 @@ class PageSetupService
 
         $services =  DB::table('pagesetups')->where('page_id',3)->where('section_id','Service Section')->get();
 
+        $learnings = DB::table('pagesetups')->where('page_id',3)->where('section_id','learningTopics')->get();
+
         return [
             "imageLink"=>$imageLink,
             "service_section"=>$serviceSection,
             "whyus"=>$whyChooseUs,
             "sliders"=>$sliders,
             "aboutUs" => $aboutUs,
-            "ourservices" =>$services
+            "ourservices" =>$services,
+            "learnings" => $learnings
         ];
     }
 
