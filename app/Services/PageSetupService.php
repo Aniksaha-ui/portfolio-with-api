@@ -22,7 +22,11 @@ class PageSetupService
         $services =  DB::table('pagesetups')->where('page_id',3)->where('section_id','Service Section')->get();
 
         $learnings = DB::table('pagesetups')->where('page_id',3)->where('section_id','learningTopics')->get();
-
+        $latestBlogs = DB::table('pagesetups')
+                      ->where('page_id',19)
+                      ->where('section_id','blogs')
+                      ->take(6)
+                      ->orderBY('id',"desc")->get();
         return [
             "imageLink"=>$imageLink,
             "service_section"=>$serviceSection,
@@ -30,7 +34,8 @@ class PageSetupService
             "sliders"=>$sliders,
             "aboutUs" => $aboutUs,
             "ourservices" =>$services,
-            "learnings" => $learnings
+            "learnings" => $learnings,
+            "latestBlogs"=>$latestBlogs 
         ];
     }
 
