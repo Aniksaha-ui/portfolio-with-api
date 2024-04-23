@@ -21,3 +21,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/homepage','Api\pages\PageController@getHomePageInformation');
 Route::get('/service','Api\pages\PageController@getServicePageInformation');
+Route::get('/blogs','Api\pages\PageController@getBlogPageInformation');
+Route::get('/blog/{id}','Api\pages\PageController@getBlogPageDetails');

@@ -11,8 +11,7 @@ class PageController extends Controller
         $this->pageSetupService = $pageSetupService;
     }
 
-    public function getHomePageInformation()
-    {
+    public function getHomePageInformation(){
         try{
 
             $data = $this->pageSetupService->getData();
@@ -60,7 +59,7 @@ class PageController extends Controller
     public function getBlogPageDetails($id){
         try{
 
-            $data = $this->pageSetupService->getBlogDetailsPageInformation();
+            $data = $this->pageSetupService->getBlogDetailsPageInformation($id);
             $response = array();
             $response['status'] = "success";
             $response['statusCode'] = 200;
