@@ -25,6 +25,52 @@ class PageController extends Controller
         }catch(\Exception $e){
 
         }
-
     }
+
+    public function getServicePageInformation(){
+        try{
+
+            $data = $this->pageSetupService->getServiceInformation();
+            $response = array();
+            $response['status'] = "success";
+            $response['statusCode'] = 200;
+            $response['data'] = $data;
+            return response()->json($response);
+
+        }catch(\Exception $e){
+
+        }
+    }
+
+    public function getBlogPageInformation(){
+        try{
+
+            $data = $this->pageSetupService->getblogPageInformation();
+            $response = array();
+            $response['status'] = "success";
+            $response['statusCode'] = 200;
+            $response['data'] = $data;
+            return response()->json($response);
+
+        }catch(\Exception $e){
+
+        }
+    }
+    
+    public function getBlogPageDetails($id){
+        try{
+
+            $data = $this->pageSetupService->getBlogDetailsPageInformation();
+            $response = array();
+            $response['status'] = "success";
+            $response['statusCode'] = 200;
+            $response['data'] = $data;
+            return response()->json($response);
+
+        }catch(\Exception $e){
+
+        }
+    }
+    
+
 }

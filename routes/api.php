@@ -19,4 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('/test','Api\pages\PageController@getHomePageInformation');
+Route::get('/homepage','Api\pages\PageController@getHomePageInformation');
+Route::get('/service','Api\pages\PageController@getServicePageInformation');
