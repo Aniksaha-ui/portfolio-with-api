@@ -667,6 +667,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
         <div class="container mt-lg-4 mt-md-1 mt-1">
         <div class="row d-flex align-items-center justify-content-center">
+                <h4 class="text-center" style="color:blue;">Professional Exprience</h4>
             @foreach($offices as $office)
             <div class="ms-lg-2 col-lg-5 order-lg-1 mb-5 mb-lg-0 card p-lg-5" style="height: 250px;" >
                 <h2 class="text-center">{{$office->title}}</h2>

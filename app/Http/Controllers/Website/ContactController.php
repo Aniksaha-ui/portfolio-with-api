@@ -94,7 +94,6 @@ class ContactController extends Controller
             ->orderBy('id')
             ->get();
 
-
         return view('Website.activity', compact('sectors'));
     }
     public function getprofileinformation()

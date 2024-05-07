@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\Api\pages\PageController;
 use Illuminate\Http\Request;
 
 /*
@@ -17,9 +16,3 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-
-
-Route::get('/homepage','Api\pages\PageController@getHomePageInformation');
-Route::get('/service','Api\pages\PageController@getServicePageInformation');
-Route::get('/blogs','Api\pages\PageController@getBlogPageInformation');
-Route::get('/blog/{id}','Api\pages\PageController@getBlogPageDetails');

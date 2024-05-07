@@ -15,7 +15,7 @@ class OrderController extends Controller
     }
 
     public function createOrder(){
-        $category=DB::table('categories')->get(); 
+        $category=DB::table('categories')->get();
         $brand = DB::table('brands')->get();
         $color = DB::table('codemas')->where('hardcode','color')->get();
         $size = DB::table('codemas')->where('hardcode','size')->get();

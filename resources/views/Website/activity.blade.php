@@ -446,7 +446,7 @@ footer{
         	<div class="w-tabs-sections-h" style="position: absolute;">
         		@foreach($sectors as $row)
 	        		<!-- <div class="w-tabs-section active" id="{{$row->section_id}}"> -->
-					@if($row->section_id=='Knitting')
+					@if($row->section_id=='convocation')
 	        		<div class="w-tabs-section active" id="{{$row->section_id}}">
 					@else
 					<div class="w-tabs-section" id="{{$row->section_id}}">	
@@ -926,39 +926,42 @@ footer{
 </div>
 </div>
 </section>
-<section class="l-section wpb_row height_medium"><div class="l-section-h i-cf"><div class="g-cols vc_row type_default valign_top"><div class="vc_col-sm-12 wpb_column vc_column_container"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInLeft" data-animation-delay="0" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect=""><h2 style="font-size: 23px;text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading title_sections">We Offer</h2>
-				                <div class="wpb_text_column ">
-				                    <div class="wpb_wrapper">
-				                        <p style="font-weight: 400;">As a Buying house we can supply garments to suit this season’s color, fabric and style based on sketches and measurements specified by our clients. We are committed assure premium-quality and delivery within the scheduled time frame.</p>
-				            <p style="font-weight: 400;">We can source many styles of knit T-shirt, polo-shirt, pique polo, tank tops etc. with different prints, details &amp; embroidery (for kids, ladies &amp; gents); Denim/twill pant, shirt, skirt, tops etc. with different oz, washing shade with different prints &amp; embroidery; sweater, cardigans &amp; pullovers with different composition of yarns &amp; gauges.</p>
+<!--<section class="l-section wpb_row height_medium"><div class="l-section-h i-cf"><div class="g-cols vc_row type_default valign_top"><div class="vc_col-sm-12 wpb_column vc_column_container"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInLeft" data-animation-delay="0" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect=""><h2 style="font-size: 23px;text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading title_sections">We Offer</h2>-->
+<!--				                <div class="wpb_text_column ">-->
+<!--				                    <div class="wpb_wrapper">-->
+<!--				                        <p style="font-weight: 400;">As a Buying house we can supply garments to suit this season’s color, fabric and style based on sketches and measurements specified by our clients. We are committed assure premium-quality and delivery within the scheduled time frame.</p>-->
+<!--				            <p style="font-weight: 400;">We can source many styles of knit T-shirt, polo-shirt, pique polo, tank tops etc. with different prints, details &amp; embroidery (for kids, ladies &amp; gents); Denim/twill pant, shirt, skirt, tops etc. with different oz, washing shade with different prints &amp; embroidery; sweater, cardigans &amp; pullovers with different composition of yarns &amp; gauges.</p>-->
 
-				                    </div>
-				                </div>
-				            </div></div></div></div></div></div></section><section class="l-section wpb_row height_medium"><div class="l-section-h i-cf"><div class="g-cols vc_row type_default valign_top"><div class="vc_col-sm-12 wpb_column vc_column_container"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInLeft" data-animation-delay="0" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect=""><h2 style="font-size: 23px;text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading title_sections">Industry and Local Knowledge</h2>
-				                <div class="wpb_text_column ">
-				                    <div class="wpb_wrapper">
-				                        <p style="font-weight: 400;">Accounting for over 70% of exported goods, textiles is Bangladesh’s primary industry.</p>
-				            <p style="font-weight: 400;">Bangladesh is one of the top countries worldwide for all types of ready-made garments, which appeals to importers and retailers in developed countries. Keeping pace with the changing world, the garments industry in Bangladesh is becoming more &amp; more dynamic and has also become more globally recognised for its reputation in balancing locally produced high quality fabrics with lower labour costs.</p>
+<!--				                    </div>-->
+<!--				                </div>-->
+<!--				            </div></div></div></div></div></div></section>-->
+<!--				            <section class="l-section wpb_row height_medium"><div class="l-section-h i-cf"><div class="g-cols vc_row type_default valign_top"><div class="vc_col-sm-12 wpb_column vc_column_container"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInLeft" data-animation-delay="0" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect=""><h2 style="font-size: 23px;text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading title_sections">Industry and Local Knowledge</h2>-->
+<!--				                <div class="wpb_text_column ">-->
+<!--				                    <div class="wpb_wrapper">-->
+<!--				                        <p style="font-weight: 400;">Accounting for over 70% of exported goods, textiles is Bangladesh’s primary industry.</p>-->
+<!--				            <p style="font-weight: 400;">Bangladesh is one of the top countries worldwide for all types of ready-made garments, which appeals to importers and retailers in developed countries. Keeping pace with the changing world, the garments industry in Bangladesh is becoming more &amp; more dynamic and has also become more globally recognised for its reputation in balancing locally produced high quality fabrics with lower labour costs.</p>-->
 
-				                    </div>
-				                </div>
-				            </div></div></div></div></div></div></section><section class="l-section wpb_row height_medium"><div class="l-section-h i-cf"><div class="g-cols vc_row type_default valign_top"><div class="vc_col-sm-12 wpb_column vc_column_container"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInLeft" data-animation-delay="0" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect=""><h2 style="font-size: 23px;text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading title_sections">Cost</h2>
-				                <div class="wpb_text_column ">
-				                    <div class="wpb_wrapper">
-				                        <p style="font-weight: 400;">Buyers/importers can enjoy further cost reduction when ordering garments made from locally produced fabric/yarn – entitle for G.S.P Form-A (Generalized system of preference, Certificate of Origin), Tax reduce-applicable for EEC countries.</p>
-				            <p style="font-weight: 400;">This is an opportunity for all foreign buyers to simultaneously increase their profit margin and satisfy consumers with the quality products that we deliver.</p>
+<!--				                    </div>-->
+<!--				                </div>-->
+<!--				            </div></div></div></div></div></div></section>-->
+<!--				            <section class="l-section wpb_row height_medium"><div class="l-section-h i-cf"><div class="g-cols vc_row type_default valign_top"><div class="vc_col-sm-12 wpb_column vc_column_container"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInLeft" data-animation-delay="0" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect=""><h2 style="font-size: 23px;text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading title_sections">Cost</h2>-->
+<!--				                <div class="wpb_text_column ">-->
+<!--				                    <div class="wpb_wrapper">-->
+<!--				                        <p style="font-weight: 400;">Buyers/importers can enjoy further cost reduction when ordering garments made from locally produced fabric/yarn – entitle for G.S.P Form-A (Generalized system of preference, Certificate of Origin), Tax reduce-applicable for EEC countries.</p>-->
+<!--				            <p style="font-weight: 400;">This is an opportunity for all foreign buyers to simultaneously increase their profit margin and satisfy consumers with the quality products that we deliver.</p>-->
 
-				                    </div>
-				                </div>
-				            </div></div></div></div></div></div></section><section class="l-section wpb_row height_medium no_border"><div class="l-section-h i-cf"><div class="g-cols vc_row type_default valign_top"><div class="vc_col-sm-12 wpb_column vc_column_container"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInLeft" data-animation-delay="0" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect=""><h2 style="font-size: 23px;text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading title_sections">New Business</h2>
-				                <div class="wpb_text_column ">
-				                    <div class="wpb_wrapper">
-				                        <p style="font-weight: 400;">Any buyer/importer/wholesaler/department chain store wishes to do business with E&J Tex Bangladesh trading and source garments through us, we will naturally begin with supplying obligation free tailored samples of any potential order, including an attractive price quote.</p>
-				            <p style="font-weight: 400;">We are a 100% export oriented company and believe in delivering total customer satisfaction.</p>
+<!--				                    </div>-->
+<!--				                </div>-->
+<!--				            </div></div></div></div></div></div></section>-->
+<!--				            <section class="l-section wpb_row height_medium no_border"><div class="l-section-h i-cf"><div class="g-cols vc_row type_default valign_top"><div class="vc_col-sm-12 wpb_column vc_column_container"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInLeft" data-animation-delay="0" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect=""><h2 style="font-size: 23px;text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading title_sections">New Business</h2>-->
+<!--				                <div class="wpb_text_column ">-->
+<!--				                    <div class="wpb_wrapper">-->
+<!--				                        <p style="font-weight: 400;">Any buyer/importer/wholesaler/department chain store wishes to do business with E&J Tex Bangladesh trading and source garments through us, we will naturally begin with supplying obligation free tailored samples of any potential order, including an attractive price quote.</p>-->
+<!--				            <p style="font-weight: 400;">We are a 100% export oriented company and believe in delivering total customer satisfaction.</p>-->
 
-				                    </div>
-				                </div>
-				            </div></div></div></div></div></div></section>
+<!--				                    </div>-->
+<!--				                </div>-->
+<!--				            </div></div></div></div></div></div></section>-->
 
 				                        
 				                    </main>

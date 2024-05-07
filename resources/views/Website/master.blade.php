@@ -33,7 +33,7 @@
 	<nav class="site-nav mt-3">
 		<div class="container">
 			<div class="site-navigation">
-				<a href="{{url('/')}}" class="logo m-0 mt-2 float-start"><img src="{{asset('website/images/logo.png')}}" alt="EnJ" class="img-fluid" height="80" width="80"></a>
+				<a href="{{url('/')}}" class="logo m-0 mt-2 float-start"><img src="http://aniksaha.infinitycodehubltd.com/image/page/1762269576049963.jpg" alt="EnJ" class="img-fluid" height="80" width="80"></a>
 
 				<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
 					<li class="active"><a href="{{url('/')}}">Home</a></li>

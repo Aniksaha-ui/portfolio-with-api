@@ -15,7 +15,6 @@ class SearchProductController extends Controller
         $subcategory = '';
         $lastlevelName = '';
         $products = DB::table('products')->where('category_id',$categoryid)->get();
-        // dd($products);
         return view('Website.product',compact('products','category','subcategory','lastlevelName'));
     }
  
@@ -76,6 +75,12 @@ class SearchProductController extends Controller
         $lastlevelName='';
         $products= DB::table('products')->get();
         return view('Website.product',compact('products','category','subcategory','lastlevelName'));
+    }
+
+    public function productDetails($productId){
+        $productDetails = DB::table('products')->where('id',$productId)->first();
+        $productCategory = DB::table('categories')->where('id',$productDetails->category_id);
+        return view('Website.productDetails',compact('productDetails','productCategory'));
     }
 
 }

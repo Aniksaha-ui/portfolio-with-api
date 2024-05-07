@@ -31,18 +31,22 @@ Route::get('/company-profile', 'Website\ContactController@getprofileinformation'
 Route::get('/our-mission', 'Website\OurMissionController@index');
 
 Route::get('productbycategory/{categoryId}', 'Website\SearchProductController@categorywisesearch');
+Route::get('product/details/{productId}','Website\SearchProductController@productDetails');
 
 Route::get('productbysubcategory/{categoryId}/{subcategoryId}', 'Website\SearchProductController@subcategorywisesearch');
 
 Route::get('productbynextcategory/{categoryId}/{subcategoryId}/{lastlevel}', 'Website\SearchProductController@nextcategorywisesearch');
 
 
+/***************************************Blogs section ******************************/
+Route::get('blogs', 'Website\BlogController@getBlogs');
+Route::get('blog/details/{blogId}', 'Website\BlogController@singleBlogDetails');
+Route::get('admin/blogs', 'Admin\Blog\BlogController@index');
+Route::get('admin/blog/{blogId}', 'Admin\Blog\BlogController@singleBlogDetails');
+Route::get('admin/blog/delete/{blogId}', 'Admin\Blog\BlogController@deleteSingleBlog');
 
 
-
-// Route::get('/', function () {
-//     return view('pages.index');
-// })->name('Home');
+/***************************************Blogs section ******************************/
 
 
 
@@ -273,3 +277,14 @@ Route::post('update/office/{id}', 'Admin\Setup\OfficeMasterController@update');
 Route::get('delete/office/{id}', 'Admin\Setup\OfficeMasterController@delete');
 
 //office master end
+
+//blog start
+
+Route::get('/admin/blog', 'Admin\Blog\BlogController@index')->name('all.blog');
+Route::get('/admin/store/blog', 'Admin\Blog\BlogController@create')->name('add.blog');
+Route::post('/admin/store', 'Admin\Blog\BlogController@store')->name('store.blog');
+Route::get('delete/blog/{id}', 'Admin\Blog\BlogController@delete');
+Route::get('edit/brand/{id}', 'Admin\Blog\BlogController@edit');
+Route::post('update/blog/{id}', 'Admin\Blog\BlogController@update');
+
+//blog start

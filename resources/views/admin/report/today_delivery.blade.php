@@ -42,11 +42,11 @@
 
                   <td>
              @if($row->status == 0)
-            <span class="badge badge-warning">Pending</span>
+            <span class="badge badge-warning">onboard</span>
             @elseif($row->status == 1)
-            <span class="badge badge-info">Payment Accept</span>
+            <span class="badge badge-info">Progress</span>
             @elseif($row->status == 2)
-            <span class="badge badge-warning">Progress</span>
+            <span class="badge badge-warning">Testing</span>
             @elseif($row->status == 3)
             <span class="badge badge-success">Delevered</span>
             @else
