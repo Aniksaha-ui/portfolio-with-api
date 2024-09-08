@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/blog','Api\blogInformationController@getBlogs');
 Route::get('/blog/{id}','Api\blogInformationController@getSingleBlogs');
+Route::post('/contact','Api\contactInfotmation@contact');
